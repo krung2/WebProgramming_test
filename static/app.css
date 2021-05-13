@@ -1,0 +1,233 @@
+body {
+	padding-top: 80px;
+}
+
+/* login.html, join.html */
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input:first-child {
+	border-top-left-radius: .25rem;
+	border-top-right-radius: .25rem;
+}
+.form-signin input {
+	margin-bottom: -1px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-signin input[type=password] {
+	margin-bottom: 10px;
+	border-bottom-right-radius: .25rem;
+	border-bottom-left-radius: .25rem;
+}
+
+.error {
+	color: #ff0000;
+}
+
+.profile-form {
+	margin: 50px 0 0 85vh;
+
+	width: 300px;
+
+}
+
+.profile-form-pic {
+	margin-left: 54px;
+	width: 200px;
+	height: 200px;
+
+	border-radius: 70%;
+	overflow: hidden;
+}
+
+.profile-form-pic-png {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile-form-name {
+	margin: 30px auto;
+	width: 100px;
+
+	font-size: 30px;
+	text-align: center;
+}
+
+.profile-form-intro {
+	margin: -10px 0 0 -65px;
+
+	width: 500px;
+
+	font-size: 20px;
+}
+
+.profile-form-intro-small {
+	margin-left: -48px;
+	font-size: 12px;
+
+	width: 1000px;
+
+	color: #808080;
+}
+
+.profile-form-shortIntro {
+	margin: 20px 0 0 -100px;
+
+	width: 500px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.icons {
+	margin-top: 30px;
+}
+
+
+.icon {
+	margin-left: 20px;
+
+	width: 50px;
+	height: 50px;
+}
+
+.guestBook-write {
+	float: left;
+	margin: 50px 0 0 200px;
+	padding-top: 90px;
+
+	width: 500px;
+	height: 200px;
+
+	color: #808080;
+	text-align: center;
+
+  	border: 1px solid #C4C4C4;
+  	box-sizing: border-box;
+  	border-radius: 5px;
+}
+
+.guestBook {
+	float: right;
+	margin: 50px 200px 0 0;
+
+	width: 800px;
+	min-height: 100px;
+
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 5px;
+
+}
+
+.guestBook-name {
+	margin: 5px 0 0 10px;
+	font-size: 24px;
+}
+
+.guestBook-created {
+	float: right;
+	margin: 14px 10px 0 0;
+	margin-top: 14px;
+	font-size: 12px;
+}
+
+.guestBook-content {
+	margin: 5px 0 0 20px;
+}
+
+.guestBook-write-login {
+	float: left;
+	margin: 50px 0 0 200px;
+	padding: 10px 0 0 30px;
+
+	width: 500px;
+	height: 200px;
+
+	font-size: 44px;
+
+  	border: 1px solid #C4C4C4;
+  	box-sizing: border-box;
+  	border-radius: 5px;
+}
+
+.guestBook-write-input-box {
+	margin-left: 10px;
+
+	padding: 3px 0 0 3px;
+
+	width: 350px;
+
+	font-size: 24px;
+
+	border: none;
+	border-bottom: 1px solid #C4C4C4;
+
+}
+
+.guestBook-write-button {
+	float: right;
+	margin: 20px 20px 0 0;
+	padding-top: 5px;
+
+	width: 75px;
+	height: 40px;
+
+	background-color: #c4c4c4;
+
+	font-size: 18px;
+	text-align: center;
+
+  	border: 1px solid #C4C4C4;
+  	box-sizing: border-box;
+  	border-radius: 5px;
+
+	cursor: pointer;
+}
+
+.guestBook-write-button:hover {
+	color: white;
+
+	background-color: #4B9DE0;
+
+	border: 1px solid #4B9DE0;
+  	box-sizing: border-box;
+  	border-radius: 5px;
+
+}
+
+.guestBook-write-input-box:focus {
+	outline: none;
+}
+
+/* guest.html */
+.message-container {
+	margin-bottom: 10px;
+}
+.message {
+	padding: 8px 16px;;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #ddd;
+}
+.message-time {
+	float: right;
+	font-size: 0.9em;
+}
+

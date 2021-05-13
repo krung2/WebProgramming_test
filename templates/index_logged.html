@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+	<meta charset="utf-8" />
+		<link rel="stylesheet" href="../static/app.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+	</head>
+	<body>
+		<!-- 
+		Starter Template https://getbootstrap.com/docs/4.6/examples/starter-template/
+		-->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">웹프로그래밍</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="/">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/register">회원가입</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/guestBook">방명록</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active">{{ name }}</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/logout">로그아웃</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+				<div class="profile-form">
+			<div class="profile-form-pic">
+				<img src="../static/profile.jpg" class="profile-form-pic-png">
+			</div>
+
+			<div class="profile-form-name">
+				신중빈
+			</div>
+
+			<div class="profile-form-intro" >
+				Back-end Developer, Front-end Developer @B1ND
+			</div>
+
+			<div class="profile-form-intro-small" >
+				Express, Koa, Django, SpringBoot, React, Mobx, Aws, Docker... 사용 가능
+			</div>
+
+			<div class="profile-form-shortIntro" >
+				대구 소프트웨어 고등학교에 재학중 <br />
+				Front-end분야와 Back-end분야를 공부중입니다 <br />
+				팀원들과 소통하는 것을 즐기고 <br />
+				작은 소프트웨어로 큰 세상을 움직이기 위해 <br />
+				열심히 발전하는 중입니다
+			</div>
+
+			<div class="icons" >
+				<a href="https://www.facebook.com/profile.php?id=100010144092898" ><embed src="../static/facebook.svg" herf="http" class="icon"></a>
+				<a href="https://www.instagram.com/joongbin4337/"><embed src="../static/instagram.svg" class="icon"></a>
+				<a href="https://github.com/krung2"><embed src="../static/github.svg" class="icon"></a>
+				<a href="https://www.rocketpunch.com/@888129f6"><embed src="../static/rocketPunch.png" class="icon" ></a>
+			</div>
+
+		</div>
+	</body>
+</html>
